@@ -29,7 +29,7 @@ h1{
     margin-bottom: 0%;
 }
 
-#autori-articolo{
+h3{
     color: grey;
     margin-top: 0;
     font-weight: 600;
@@ -81,3 +81,22 @@ th{
 }
 
 tr:nth-child(odd) { background-color: rgb(164, 224 ,238); }
+
+footer div{
+    position: relative;
+}
+
+ footer img{
+    display: block;
+    padding-bottom: 20px;
+ }
+
+ footer span{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    display: block;
+    font-weight: 800;
+    font-size: 30px;
+ }
