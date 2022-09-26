@@ -38,7 +38,7 @@ h1{
 #autori{
     color: rgb(47, 160,225);
     margin-bottom: 0;
-    display: inline-block;
+   
 }
 
 #data-articolo{
@@ -63,3 +63,21 @@ ul{
     margin-top: 60px;
     margin-bottom: 60px;
 }
+
+/* allineamento e spazio tra le celle */
+table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+/* lunghezza massima della cella */
+td{
+   max-width: 400px;
+}
+
+th{
+    background-color: rgb(31, 152, 223);
+}
+
+tr:nth-child(odd) { background-color: rgb(164, 224 ,238); }
