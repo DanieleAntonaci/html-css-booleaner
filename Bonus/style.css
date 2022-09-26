@@ -4,6 +4,7 @@ body{
     font-size: 25px;
 }
 
+
  /* Posizionamento logo */
 header img{
     width: 250px;
@@ -21,7 +22,7 @@ header{
 }
 
 main,footer{
-    margin:0 10px;
+    margin:0 200px;
 }
 
 h1{
@@ -44,7 +45,7 @@ h3{
 }
 
 main img{
-  height: 550px;
+  height: 100%;
 }
 
     /* Testo in piccolo */
@@ -81,6 +82,9 @@ th{
     /* stondo differente dispari per la tabella */
 tr:nth-child(odd) { 
     background-color: rgb(164, 224 ,238); 
+}
+footer{
+    margin-top: 20px;
 }
 
 footer div{
