@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-size: 30px;
+    font-size: 25px;
 }
  /* Posizionamento logo */
 header img{
@@ -53,4 +53,13 @@ main img{
 
 #intestazioni-foto{
     font-size: 20px;
+}
+
+.evidenziato{
+    background-color: #FFFF00;
+}
+
+ul{
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
